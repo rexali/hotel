@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} \.html-f
+RewriteRule ^(.*)$ $1.html
+RewriteRule ^(.+)$ index.php [QSA,L]
+# RewriteRule ^control/([^/]+)/(.*)$ api?control=$1&query=$2
