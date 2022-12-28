@@ -7,11 +7,11 @@ Extract the files to a folder of your choice, add the folder path to your Comput
 
 ## Start the Server
 
-Run this in the command line:
+Run the command below in the command line:
 
 cd server
 
-Run this command in the CMD:
+Run this command below in the command line:
 
 php -S localhost:8080
 
